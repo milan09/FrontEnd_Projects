@@ -95,4 +95,32 @@ section {
   width: 70%;
   margin-top: 3em;
 }
+
+section.features-section {
+  background: #20272E;
+  color: white;
+}
+
+ul.features-list {
+  margin: 0;
+  padding-left: .1em;
+}
+
+ul.features-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+
+ul.features-list li:before {
+  content: '';
+  position: absolute;
+  left: -2em;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/bullet.svg");
+  background-size: contain;
+  margin-right: 0.5em;
+}
 /*# sourceMappingURL=main.css.map */
